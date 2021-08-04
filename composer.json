@@ -1,0 +1,23 @@
+{
+  "name": "graywolf/logistics-box",
+  "description": "",
+  "type": "library",
+  "keywords": ["laravel"],
+  "license": "MIT",
+  "homepage": "https://github.com/krcharen/logistics-box",
+  "authors": [
+    {
+      "name": "krcharen",
+      "email": "krcharen@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">= 7.0.0",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "ExpressBox\\": "src/"
+    }
+  }
+}
